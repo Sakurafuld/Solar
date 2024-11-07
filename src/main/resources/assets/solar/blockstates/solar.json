@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": {"model": "solar:block/solar_enabled"},
+    "lit=false": {"model": "solar:block/solar_disabled"}
+  }
+}

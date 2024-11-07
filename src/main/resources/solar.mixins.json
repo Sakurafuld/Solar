@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "com.sakurafuld.solar.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "solar.refmap.json",
+  "mixins": [
+    "solar.AdvancedSolarGeneratorMixin",
+    "solar.DaylightDetectorMixin",
+    "solar.EvaporationMultiblockDataMixin",
+    "solar.MobMixin",
+    "solar.MoreSolarPanelMixin",
+    "solar.SolarGeneratorMixin",
+    "solar.SolarNeutronActivatorMixin"
+  ],
+  "server": [
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}

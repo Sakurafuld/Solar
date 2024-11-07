@@ -1,0 +1,58 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="MIT"
+
+[[mods]] #mandatory
+modId="solar" #mandatory
+version="0.1" #mandatory
+displayName="Solar" #mandatory
+logoFile="solar.png" #optional
+credits="" #optional
+authors="Sakurafuld" #optional
+
+description='''
+See Lexica Botania
+'''
+
+[[dependencies.solar]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[40,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.solar]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.solar]]
+    modId="botania"
+    mandatory=true
+    versionRange="[1.18.2-435,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.solar]]
+    modId="mekanism"
+    mandatory=false
+    versionRange="[1.18.2-10.2.5.465,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.solar]]
+    modId="mekanismgenerators"
+    mandatory=false
+    versionRange="[1.18.2-10.2.5.465,)"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.solar]]
+    modId="solarpanels"
+    mandatory=false
+    versionRange="[1.18.2-1.5.1,)"
+    ordering="AFTER"
+    side="BOTH"

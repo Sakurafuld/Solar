@@ -1,0 +1,8 @@
+{
+  "itemGroup.solar": "Solar",
+
+  "block.solar.solar": "Miniature Sunshine",
+  
+  "solar.page.solar": "$(item)The Miniature Sunshine$(0) is a amulet that brings daylight into the world. When $(thing)Mana$(0) is supplied to this block in a $(thing)Mana Burst$(0) or a $(thing)Spark$(0), $(item)Blocks$(0) and $(item)Entities$(0) throughout the chunk will ignore the current time, $(thing)Dimension$(0), and begin to behave as if\n it were daytime now. Furthermore, the corresponding objects, such as some blocks in the $(#00aaee)Mekanism$(0), will perform at a stronger capability than during daytime.",
+  "solar.page.solar.crafting": "What if there are two in the same chunk? $(br)$(#ff0000)IT IS TRULY AN ART!"
+}

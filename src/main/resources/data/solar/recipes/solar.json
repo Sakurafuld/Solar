@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "botania"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " S ",
+          " P ",
+          " D "
+        ],
+        "key": {
+          "S": {
+            "item": "minecraft:sunflower"
+          },
+          "P": {
+            "item": "botania:tiny_planet_block"
+          },
+          "D": {
+            "item": "botania:mana_diamond"
+          }
+        },
+        "result": {
+          "item": "solar:solar"
+        }
+      }
+    }
+  ]
+}
