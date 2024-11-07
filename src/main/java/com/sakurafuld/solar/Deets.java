@@ -40,8 +40,8 @@ public class Deets {
 
             SOLAR_MULTIPLIER = BUILDER
                     .comment("Multiplier over the maximum working speed of the machine",
-                            "Default: 2.0")
-                    .defineInRange("Miniature Sunshine Multiplier", 2, 1, Double.POSITIVE_INFINITY);
+                            "Default: 32.0")
+                    .defineInRange("Miniature Sunshine Multiplier", 32, 1, Double.POSITIVE_INFINITY);
             SOLAR_MAX = BUILDER
                     .comment("Maximum storage of mana in the Miniature Sunshine",
                             "Default: 100000")
